@@ -7,4 +7,10 @@
 
 cd /Users/paul/sites/pressflow/sites
 
-git clone git://github.com/ekbdinger/d7pf7_all_folder.git
+# should probably do a 'rm -rf all' here
+
+git clone git://github.com/ekbdinger/d7pf7_all_folder.git all
+
+# could also do a drush en -y backup_migrate
+# import the database
+# do a drush cc all for good measure
